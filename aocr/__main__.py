@@ -11,11 +11,11 @@ import logging
 
 import tensorflow as tf
 
-from .model.model import Model
-from .defaults import Config
-from .util import dataset
-from .util.data_gen import DataGen
-from .util.export import Exporter
+from model.model import Model
+from defaults import Config
+from util import dataset
+from util.data_gen import DataGen
+from util.export import Exporter
 
 tf.logging.set_verbosity(tf.logging.ERROR)
 

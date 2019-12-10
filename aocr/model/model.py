@@ -16,8 +16,8 @@ import tensorflow as tf
 from six.moves import xrange  # pylint: disable=redefined-builtin
 from .cnn import CNN
 from .seq2seq_model import Seq2SeqModel
-from ..util.data_gen import DataGen
-from ..util.visualizations import visualize_attention
+from util.data_gen import DataGen
+from util.visualizations import visualize_attention
 
 
 class Model(object):
